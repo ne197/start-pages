@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Home</title>
+    <style>
+        /* 全体のデザイン調整 */
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #f4f6f9; padding: 20px; margin: 0; }
+        .container { max-width: 500px; margin: 0 auto; }
+        
+        /* 検索バーと同じ大きさの大きなGoogleボタン */
+        .google-large-btn { display: block; margin-bottom: 25px; background: #fff; padding: 20px; text-align: center; border-radius: 16px; text-decoration: none; color: #1e293b; font-weight: bold; font-size: 18px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border: 1px solid #edf2f7; }
+        .google-large-btn:active { background: #f1f5f9; transform: scale(0.99); }
+        
+        /* 残りの9個のサイトリンク（2列のタイル状に並べる） */
+        .links { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+        .link-card { background: #fff; padding: 18px 10px; text-align: center; border-radius: 14px; text-decoration: none; color: #1e293b; font-weight: 600; font-size: 15px; box-shadow: 0 4px 6px rgba(0,0,0,0.03); border: 1px solid #edf2f7; display: flex; align-items: center; justify-content: center; min-height: 24px; }
+        .link-card:active { background: #f1f5f9; transform: scale(0.98); }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- 1番目：大きなGoogleボタン -->
+    <a href="https://google.com" target="_blank" rel="noopener noreferrer" class="google-large-btn">Google</a>
+
+    <!-- その下に並ぶ9個のサイトURL -->
+    <div class="links">
+        <!-- 2番目 -->
+        <a href="https://duck.ai" target="_blank" rel="noopener noreferrer" class="link-card">Duck.ai</a>
+        <!-- 3番目 (ご指定のURL) -->
+        <a href="https://www.amazon.co.jp/vine" target="_blank" rel="noopener noreferrer" class="link-card">Vine</a>
+        <!-- 4番目 -->
+        <a href="https://yodobashi.com" target="_blank" rel="noopener noreferrer" class="link-card">ヨドバシ</a>
+        <!-- 5番目 -->
+        <a href="https://www.amazon.co.jp/" target="_blank" rel="noopener noreferrer" class="link-card">Amazon</a>
+        <!-- 6番目 -->
+        <a href="https://kakaku.com" target="_blank" rel="noopener noreferrer" class="link-card">価格.com</a>
+        <!-- 7番目 (ご指定のURL) -->
+        <a href="https://mail.proton.me/" target="_blank" rel="noopener noreferrer" class="link-card">Proton Mail</a>
+        <!-- 8番目 (ご指定のURL) -->
+        <a href="https://m.kuku.lu/" target="_blank" rel="noopener noreferrer" class="link-card">捨てメアド</a>
+        <!-- 9番目 -->
+        <a href="https://nihontsushin.com" target="_blank" rel="noopener noreferrer" class="link-card">日本通信SIM</a>
+        <!-- 10番目 (ご指定のURL) -->
+        <a href="https://kurasushiess.snps-shift.com/" target="_blank" rel="noopener noreferrer" class="link-card">母のシフト</a>
+    </div>
+
+</div>
+
+</body>
+</html>
+
